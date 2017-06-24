@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "13a5f7ab-b4f5-41df-990a-121a6009f4c0++7606",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "13a5f7ab-b4f5-41df-990a-121a6009f4c0++7606" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "13a5f7ab-b4f5-41df-990a-121a6009f4c0++7606" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7B837170-4DD2-4476-81BF-7474FA210737",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "13a5f7ab-b4f5-41df-990a-121a6009f4c0++7606" : "HALStudent"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "HALStudent",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "HALStudent.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/project.info.yuge.ac.jp\/svn\/procon2015team_a",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "13a5f7ab-b4f5-41df-990a-121a6009f4c0++7606"
+    }
+  ]
+}

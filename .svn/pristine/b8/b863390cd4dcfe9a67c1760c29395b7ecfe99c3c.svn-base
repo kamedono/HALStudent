@@ -1,0 +1,45 @@
+//
+//  ClickerInfo.swift
+//  HALStudent
+//
+//  Created by Toshiki Higaki on 2015/09/26.
+//  Copyright (c) 2015年 sotuken. All rights reserved.
+//
+
+import Foundation
+
+@objc(ClickerInfo)
+class ClickerInfo : NSObject , NSCoding {
+    
+    static let clickerInfoInstance = ClickerInfo()
+    
+    // 問題文
+    var question: String?
+    
+    // 解答群
+    var answerList: [String]?
+    
+    // 解答群数
+    var answerNumber: Int = 4
+    
+    override init() {
+        super.init()
+    }
+    
+    required init(coder aDecoder: NSCoder) {
+        super.init()
+        self.question = aDecoder.decodeObjectForKey("question") as? String
+        self.answerList = aDecoder.decodeObjectForKey("answerList") as? [String]
+    }
+    
+    func encodeWithCoder(aCoder: NSCoder) {
+        aCoder.encodeObject(self.question, forKey: "question")
+        aCoder.encodeObject(self.answerList, forKey: "answerList")
+    }
+    
+    // 初期化の代わり
+    func setEmpty() {
+        self.question = ""
+        self.answerList = []
+    }
+}
